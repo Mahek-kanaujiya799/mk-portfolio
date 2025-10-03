@@ -131,48 +131,6 @@ body {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 50px;
-  background: #dff3e9;
-  color: #fff;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  font-size: 20px;
-}
-nav ul li {
-  margin-left: 20px;
-}
-nav ul li a {
-  color: #006880;
-  text-decoration: none;
-  transition: 0.3s;
-}
-nav ul li a:hover {
-  color: #000;
-}
-
-nav button {
-  background-color: unset;
-  border: 2px solid black;
-  border-radius: 30px;
-  padding: 8px;
-  font-size: 20px;
-  color: #000;
-}
-nav button:hover {
-  border: 2px solid #637ab9;
-  color: #31326f;
-  background-color: #c0e5d3;
-}
-nav button a {
-  text-decoration: none;
-} */
-
 /* Hero */
 .hero {
   text-align: center;
@@ -186,7 +144,7 @@ nav button a {
 
 /* Sections */
 #about {
-  background-image: url("tech-bg.webp");
+  background-image: url("images/tech-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -493,6 +451,14 @@ h2 {
   font-size: 1rem;
   resize: none;
 }
+.contact-form input::placeholder {
+  color: grey;
+  font-family: Arial, sans-serif;
+}
+.contact-form textarea::placeholder {
+  color: grey;
+  font-family: Arial, sans-serif;
+}
 
 .contact-form input:focus,
 .contact-form textarea:focus {
@@ -606,6 +572,3 @@ h2 {
     gap: 10px;
   }
 }
-
-
-
