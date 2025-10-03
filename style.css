@@ -602,9 +602,10 @@ h2 {
 @media (max-width: 600px) {
   .footer-links,
   .footer-social {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 }
+
 
 
