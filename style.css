@@ -144,7 +144,7 @@ body {
 
 /* Sections */
 #about {
-  background-image: url("images/tech-bg.webp");
+  background-image: url("tech-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -572,3 +572,4 @@ h2 {
     gap: 10px;
   }
 }
+
